@@ -1,13 +1,21 @@
 <template>
     <h1>Counter: {{ count }}</h1>
+    <button>Increase</button>
 </template>
 
 <script>
     export default {
         name: 'NumCounter',
+        
         data() {
             return {
                 count: 0
+            }
+        },
+        methods: {
+            increaseCount() {
+                console.log('clicked increase button!');
+                
             }
         }
     }
