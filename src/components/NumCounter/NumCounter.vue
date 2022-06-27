@@ -20,7 +20,7 @@
             },
             decreaseCount() {
                 console.log('clicked decrease button');
-                
+                this.count--
             }
         }
     }
