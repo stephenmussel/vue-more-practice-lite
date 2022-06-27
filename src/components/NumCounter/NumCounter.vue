@@ -1,7 +1,7 @@
 <template>
     <h1>Counter: {{ count }}</h1>
     <button @click="increaseCount">Increase</button>&nbsp;
-    <button>Decrease</button>
+    <button @click="decreaseCount">Decrease</button>
 </template>
 
 <script>
