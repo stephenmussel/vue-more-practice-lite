@@ -1,6 +1,7 @@
 <template>
     <h1>Counter: {{ count }}</h1>
-    <button @click="increaseCount">Increase</button>
+    <button @click="increaseCount">Increase</button>&nbsp;
+    <button>Decrease</button>
 </template>
 
 <script>
@@ -16,6 +17,10 @@
             increaseCount() {
                 console.log('clicked increase button!');
                 this.count++
+            },
+            decreaseCount() {
+                console.log('clicked decrease button');
+                
             }
         }
     }
