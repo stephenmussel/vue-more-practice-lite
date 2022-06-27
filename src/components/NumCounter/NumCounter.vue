@@ -15,7 +15,7 @@
         methods: {
             increaseCount() {
                 console.log('clicked increase button!');
-                
+                this.count++
             }
         }
     }
